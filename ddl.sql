@@ -47,6 +47,6 @@ CREATE TABLE "TARJETA" (
   num_tarjeta char(16) NOT NULL UNIQUE,
   fecha_expiracion date NOT NULL,
   ccv char(3) NOT NULL,
-  CONSTRAINT "PK_ID_TARJETA" PRIMARY KEY (id_tarjeta),
+  CONSTRAINT "PK_ID_TARJETA" PRIMARY KEY (id_tarjeta)
 );
 
