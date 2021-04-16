@@ -37,3 +37,16 @@ CREATE TABLE "STATUS" (
   CONSTRAINT "PK_ID_STATUS" PRIMARY KEY (id_status)
 );
 
+--
+-- TABLE: "TARJETA"
+--
+CREATE SEQUENCE id_tarjeta_seq;
+
+CREATE TABLE "TARJETA" (
+  id_tarjeta int NOT NULL DEFAULT nextval('id_tarjeta_seq'),
+  num_tarjeta char(16) NOT NULL UNIQUE,
+  fecha_expiracion date NOT NULL,
+  ccv char(3) NOT NULL,
+  CONSTRAINT "PK_ID_TARJETA" PRIMARY KEY (id_tarjeta),
+);
+
