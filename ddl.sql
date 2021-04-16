@@ -26,3 +26,14 @@ CREATE TABLE "CATALOGO" (
   CONSTRAINT "PK_ID_CATALOGO" PRIMARY KEY (id_catalogo)
 );
 
+--
+-- TABLE: "STATUS"
+--
+CREATE SEQUENCE id_status_seq;
+
+CREATE TABLE "STATUS" (
+  id_status int NOT NULL DEFAULT nextval('id_status_seq'),
+  descripcion varchar(100) NOT NULL,
+  CONSTRAINT "PK_ID_STATUS" PRIMARY KEY (id_status)
+);
+
