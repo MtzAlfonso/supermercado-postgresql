@@ -66,6 +66,7 @@ CREATE TABLE "EMPLEADO" (
 CREATE TABLE "GERENTE" (
   id_empleado int NOT NULL,
   antiguedad int NOT NULL,
+  bono numeric(10, 2) GENERATED ALWAYS AS ((antiguedad * 1000) + 1500) STORED,
   CONSTRAINT "PK_CHILD_GERENTE" PRIMARY KEY (id_empleado)
 );
 
