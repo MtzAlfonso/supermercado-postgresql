@@ -172,7 +172,9 @@ CREATE TABLE "TARJETA" (
   CONSTRAINT "PK_TARJETA" PRIMARY KEY (id_tarjeta)
 );
 
+--
 -- CREANDO REFERENCIAS CON LLAVES FORANEAS
+-- TODO: Analizar qué tablas se eliminan en cascada
 --
 -- TABLE: "CAJERO"
 --
