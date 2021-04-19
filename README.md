@@ -8,7 +8,7 @@ Proyecto final del curso de bases de datos de UNICA.
 
 2. [x] **Crear el modelo relacional con notación Crow’s foot.**
 
-3. [ ] **Elaborar el código DDL necesario para crear todos los objetos previstos en el modelo relacional.**
+3. [x] **Elaborar el código DDL necesario para crear todos los objetos previstos en el modelo relacional.**
 
 4. [ ] **Por cada entidad, que se corresponda con una entidad en el modelo ER, genere un mínimo de 5 registros que permitan implementar la diversidad de las RN.**
 
