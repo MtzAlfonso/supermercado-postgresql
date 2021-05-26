@@ -89,7 +89,7 @@ CREATE TABLE "HISTORICO_PROD" (
 CREATE TABLE "MEMBRESIA" (
   id_membresia int NOT NULL,
   id_compra int NOT NULL,
-  num_tarjeta int NOT NULL,
+  num_tarjeta char(16) NOT NULL,
   nombre varchar(30) NOT NULL,
   ap_paterno varchar(30) NOT NULL,
   ap_materno varchar(30) NOT NULL,
@@ -166,7 +166,7 @@ CREATE SEQUENCE id_tarjeta_seq;
 
 CREATE TABLE "TARJETA" (
   id_tarjeta int NOT NULL DEFAULT nextval('id_tarjeta_seq'),
-  num_tarjeta int NOT NULL UNIQUE,
+  num_tarjeta char(16) NOT NULL UNIQUE,
   fecha_expiracion date NOT NULL,
   ccv char(3) NOT NULL,
   CONSTRAINT "PK_TARJETA" PRIMARY KEY (id_tarjeta)
