@@ -114,3 +114,15 @@ VALUES
 (3, 'JAM1234508', 'Lorena', 'Raya', 'Renedo', 'Lorena@gmail.com', '5527321527', '643453298292', 'V', 'Carretera Lorem ipsum dolor sit, 64A', 'G'),
 (4, 'JAM1234509', 'Rodrigo', 'Hernandez', 'Perez', 'Rodrigo@gmail.com', '5571618157', '273762454698', 'N', 'Vía Lorem ipsum dolor, 19A 8ºF', 'C'),
 (5, 'JAM1234510', 'Peter', 'Rodriguez', 'Rivera', 'Peter@gmail.com', '5535962755', '745987878749', 'M', 'Cañada Lorem, 296B 3ºE', 'G');
+
+---
+--- Insert into GERENTE
+---
+INSERT INTO "GERENTE"
+(id_empleado, antiguedad)
+VALUES
+(2, 3),
+(4, 4),
+(6, 5),
+(8, 6),
+(10, 7);
