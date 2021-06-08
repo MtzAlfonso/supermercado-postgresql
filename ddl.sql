@@ -86,8 +86,10 @@ CREATE TABLE "HISTORICO_PROD" (
 --
 -- TABLE: "MEMBRESIA"
 --
+CREATE SEQUENCE id_membresia;
+
 CREATE TABLE "MEMBRESIA" (
-  id_membresia int NOT NULL,
+  id_membresia int NOT NULL DEFAULT nextval('id_membresia'),
   id_compra int NOT NULL,
   id_tarjeta int NOT NULL,
   nombre varchar(30) NOT NULL,
