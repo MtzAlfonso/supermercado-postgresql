@@ -2,7 +2,7 @@
   -- CAJERO
   --// CATALOGO
   -- COMPRA
-  -- EMPLEADO
+  --// EMPLEADO
   -- GERENTE
   --// HISTORICO_PROD
   -- MEMBRESIA
@@ -97,3 +97,15 @@ VALUES
 (3, 3, '2025-05-06'),
 (4, 4, '2023-09-03'),
 (5, 5, '2022-03-09');
+
+---
+--- Insert into EMPLEADO
+---
+INSERT INTO "EMPLEADO"
+(id_catalogo, num_empleado, nombre, ap_paterno, ap_materno, correo, telefono, num_social, turno, direccion, tipo)
+VALUES 
+(1, 'JAM1234501', 'Alfonso', 'Martínez', 'Baeza', 'alfonso@gmail.com', '5526303190', '238577294724', 'M', 'Carretera Lorem ipsum dolor sit, 175A 10ºH', 'C'),
+(2, 'JAM1234502', 'Catalina', 'Rojo', 'Rojas', 'catalina@gmail.com', '5593407605', '675692324222', 'V', 'Acceso Lorem ipsum dolor sit, 297B 18ºA', 'G'),
+(3, 'JAM1234503', 'Lisbet', 'Raya', 'Renedo', 'lisbet@gmail.com', '5527321527', '599879549949', 'N', 'Carretera Lorem ipsum dolor sit, 64A', 'C'),
+(4, 'JAM1234504', 'Rodolfo', 'Hernandez', 'Perez', 'rodolfo@gmail.com', '5571618157', '662929232368', 'M', 'Vía Lorem ipsum dolor, 19A 8ºF', 'G'),
+(5, 'JAM1234505', 'Maria', 'Rodriguez', 'Rivera', 'maria@gmail.com', '5535962755', '934375536393', 'V', 'Cañada Lorem, 296B 3ºE', 'C');
