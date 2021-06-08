@@ -26,7 +26,7 @@ VALUES
 ('2025-02-19', 'San Rafael', 'Ryan Raynolds', 'Wade Wilson', '2025-10-24', 'Mexico', 'CDMX', 'Calle 5 Col. Colonia 5');
 
 --
--- Insert into PROVEEDOR
+-- Insert into TARJETA
 --
 INSERT INTO "TARJETA"
 (num_tarjeta, fecha_expiracion, ccv)
