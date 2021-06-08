@@ -4,7 +4,7 @@
   -- COMPRA
   -- EMPLEADO
   -- GERENTE
-  -- HISTORICO_PROD
+  --// HISTORICO_PROD
   -- MEMBRESIA
   --// PRODUCTO
   --// PROVEEDOR
@@ -86,3 +86,14 @@ VALUES
 (4, 4, '2026-04-01', 'Atun', 'Dolores', 'Individual', '2026-04-01'),
 (5, 5, '2024-03-01', 'Frijoles', 'La Sierra', '400g', '2024-03-01');
 
+---
+--- Insert into HISTORICO_PROD
+---
+INSERT INTO "HISTORICO_PROD"
+(id_produto, id_status, fecha_status)
+VALUES
+(1, 1, '2026-03-01'),
+(2, 2, '2024-02-04'),
+(3, 3, '2025-05-06'),
+(4, 4, '2023-09-03'),
+(5, 5, '2022-03-09');
