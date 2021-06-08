@@ -54,7 +54,7 @@ CREATE TABLE "EMPLEADO" (
   correo varchar(50) NOT NULL,
   telefono char(10),
   num_social char(12) NOT NULL UNIQUE,
-  turno char(1) NOT NULL,
+  turno char(1) NOT NULL CHECK (turno IN ('M','V','N')),
   direccion varchar(100) NOT NULL,
   tipo char(1) CHECK (tipo IN ('C', 'G')),
   CONSTRAINT "PK_EMPLEADO" PRIMARY KEY (id_empleado)
