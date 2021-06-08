@@ -9,7 +9,7 @@
   -- PRODUCTO
   --// PROVEEDOR
   --// STATUS
-  -- SURTE_CATALOGO
+  --// SURTE_CATALOGO
   --// TARJETA
 */
 
@@ -61,3 +61,15 @@ VALUES
 ('SECCION 3'),
 ('SECCION 4'),
 ('SECCION 5');
+
+---
+--- Insert into SURTE_CATALOGO
+---
+INSERT INTO "SURTE_CATALOGO"
+(id_proveedor, id_catalogo, precio_venta)
+VALUES
+(1, 1, 50.0),
+(2, 2, 60.0),
+(3, 3, 70.0),
+(4, 4, 80.0),
+(5, 5, 90.0);
