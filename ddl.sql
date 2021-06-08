@@ -56,7 +56,7 @@ CREATE TABLE "EMPLEADO" (
   num_social char(12) NOT NULL UNIQUE,
   turno char(1) NOT NULL,
   direccion varchar(100) NOT NULL,
-  tipo char(1),
+  tipo char(1) CHECK (tipo IN ('C', 'G')),
   CONSTRAINT "PK_EMPLEADO" PRIMARY KEY (id_empleado)
 );
 
@@ -65,7 +65,7 @@ CREATE TABLE "EMPLEADO" (
 --
 CREATE TABLE "GERENTE" (
   id_empleado int NOT NULL,
-  antiguedad int NOT NULL,
+  antiguedad int NOT NULL CHECK (antiguedad > 3),
   bono numeric(10, 2) GENERATED ALWAYS AS ((antiguedad * 1000) + 1500) STORED,
   CONSTRAINT "PK_CHILD_GERENTE" PRIMARY KEY (id_empleado)
 );
