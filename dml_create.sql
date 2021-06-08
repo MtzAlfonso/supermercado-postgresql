@@ -1,5 +1,5 @@
 /*
-  -- CAJERO
+  --// CAJERO
   --// CATALOGO
   -- COMPRA
   --// EMPLEADO
@@ -126,3 +126,15 @@ VALUES
 (6, 5),
 (8, 6),
 (10, 7);
+
+---
+--- Insert into CAJERO
+---
+INSERT INTO "CAJERO"
+(id_empleado, id_supervisor, bachillerato, telefono)
+VALUES
+(1, 3, true, '5557628522'),
+(3, 3, false, '5553582473'),
+(5, 3, true, '5554282422'),
+(7, 3, false, '5555578588'),
+(9, 3, true, '5594393976');
