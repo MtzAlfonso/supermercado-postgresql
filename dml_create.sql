@@ -1,6 +1,6 @@
 /*
   -- CAJERO
-  -- CATALOGO
+  --// CATALOGO
   -- COMPRA
   -- EMPLEADO
   -- GERENTE
@@ -8,7 +8,7 @@
   -- MEMBRESIA
   -- PRODUCTO
   --// PROVEEDOR
-  -- STATUS
+  --// STATUS
   -- SURTE_CATALOGO
   --// TARJETA
 */
@@ -36,3 +36,16 @@ VALUES
 (5362254023285509, '2023-11-01','577'),
 (5516155418807093, '2026-04-01','184'),
 (5395719140489078, '2024-03-01','984');
+
+
+---
+--- Insert into STATUS
+---
+INSERT INTO "STATUS"
+(descripcion)
+VALUES
+('STATUS 1'),
+('STATUS 2'),
+('STATUS 3'),
+('STATUS 4'),
+('STATUS 5');
