@@ -3,7 +3,7 @@
   --// CATALOGO
   -- COMPRA
   --// EMPLEADO
-  -- GERENTE
+  --// GERENTE
   --// HISTORICO_PROD
   -- MEMBRESIA
   --// PRODUCTO
@@ -103,9 +103,14 @@ VALUES
 ---
 INSERT INTO "EMPLEADO"
 (id_catalogo, num_empleado, nombre, ap_paterno, ap_materno, correo, telefono, num_social, turno, direccion, tipo)
-VALUES 
+VALUES
 (1, 'JAM1234501', 'Alfonso', 'Martínez', 'Baeza', 'alfonso@gmail.com', '5526303190', '238577294724', 'M', 'Carretera Lorem ipsum dolor sit, 175A 10ºH', 'C'),
 (2, 'JAM1234502', 'Catalina', 'Rojo', 'Rojas', 'catalina@gmail.com', '5593407605', '675692324222', 'V', 'Acceso Lorem ipsum dolor sit, 297B 18ºA', 'G'),
 (3, 'JAM1234503', 'Lisbet', 'Raya', 'Renedo', 'lisbet@gmail.com', '5527321527', '599879549949', 'N', 'Carretera Lorem ipsum dolor sit, 64A', 'C'),
 (4, 'JAM1234504', 'Rodolfo', 'Hernandez', 'Perez', 'rodolfo@gmail.com', '5571618157', '662929232368', 'M', 'Vía Lorem ipsum dolor, 19A 8ºF', 'G'),
-(5, 'JAM1234505', 'Maria', 'Rodriguez', 'Rivera', 'maria@gmail.com', '5535962755', '934375536393', 'V', 'Cañada Lorem, 296B 3ºE', 'C');
+(5, 'JAM1234505', 'Maria', 'Rodriguez', 'Rivera', 'maria@gmail.com', '5535962755', '934375536393', 'V', 'Cañada Lorem, 296B 3ºE', 'C'),
+(1, 'JAM1234506', 'Jose', 'Perea', 'Perez', 'jose@gmail.com', '5527304190', '696255384629', 'N', 'Carretera Lorem ipsum dolor sit, 175A 10ºH', 'G'),
+(2, 'JAM1234507', 'Laura', 'Rojo', 'Rojas', 'Laura@gmail.com', '5593407605', '536354529896', 'M', 'Acceso Lorem ipsum dolor sit, 297B 18ºA', 'C'),
+(3, 'JAM1234508', 'Lorena', 'Raya', 'Renedo', 'Lorena@gmail.com', '5527321527', '643453298292', 'V', 'Carretera Lorem ipsum dolor sit, 64A', 'G'),
+(4, 'JAM1234509', 'Rodrigo', 'Hernandez', 'Perez', 'Rodrigo@gmail.com', '5571618157', '273762454698', 'N', 'Vía Lorem ipsum dolor, 19A 8ºF', 'C'),
+(5, 'JAM1234510', 'Peter', 'Rodriguez', 'Rivera', 'Peter@gmail.com', '5535962755', '745987878749', 'M', 'Cañada Lorem, 296B 3ºE', 'G');
