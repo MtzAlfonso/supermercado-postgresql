@@ -10,7 +10,7 @@ Proyecto final del curso de bases de datos de UNICA.
 
 3. [x] **Elaborar el código DDL necesario para crear todos los objetos previstos en el modelo relacional.**
 
-4. [ ] **Por cada entidad, que se corresponda con una entidad en el modelo ER, genere un mínimo de 5 registros que permitan implementar la diversidad de las RN.**
+4. [X] **Por cada entidad, que se corresponda con una entidad en el modelo ER, genere un mínimo de 5 registros que permitan implementar la diversidad de las RN.**
 
 5. [ ] **Por cada tabla del modelo relacional, que se corresponda con una entidad en el modelo ER, actualice 2 registros.**
 
@@ -20,6 +20,8 @@ Proyecto final del curso de bases de datos de UNICA.
 
 ## Modelo Entidad-Relación
 
+![Modelo entidad-relacion](https://raw.githubusercontent.com/mtzAlfonso96/supermercado-postgresql/main/assets/modelo-entidad-relacion.jpg)
+
 ## Modelo Relacional
 
-![Modelo relacional](https://raw.githubusercontent.com/mtzAlfonso96/supermercado-postgresql/main/assets/modelo_relacional.jpg)
+![Modelo relacional](https://raw.githubusercontent.com/mtzAlfonso96/supermercado-postgresql/main/assets/modelo-relacional.jpg)
