@@ -6,7 +6,7 @@
   -- GERENTE
   -- HISTORICO_PROD
   -- MEMBRESIA
-  -- PRODUCTO
+  --// PRODUCTO
   --// PROVEEDOR
   --// STATUS
   --// SURTE_CATALOGO
@@ -73,3 +73,16 @@ VALUES
 (3, 3, 70.0),
 (4, 4, 80.0),
 (5, 5, 90.0);
+
+---
+--- Insert into PRODUCTO
+---
+INSERT INTO "PRODUCTO"
+(id_catalogo, id_status, fecha_status, nombre_comercial, marca, presentacion, fecha_adquisicion)
+VALUES
+(1, 1, '2022-09-01', 'Salchichas para Hot Dog', 'Fud', 'Ocho piezas', '2022-09-01'),
+(2, 2, '2027-07-01', 'Medias noches', 'Bimbo', 'Ocho piezas', '2027-07-01'),
+(3, 3, '2023-11-01', 'Jabon liquido', 'Bold', '4kg', '2023-11-01'),
+(4, 4, '2026-04-01', 'Atun', 'Dolores', 'Individual', '2026-04-01'),
+(5, 5, '2024-03-01', 'Frijoles', 'La Sierra', '400g', '2024-03-01');
+
