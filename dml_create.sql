@@ -1,7 +1,7 @@
 /*
   --// CAJERO
   --// CATALOGO
-  -- COMPRA
+  --// COMPRA
   --// EMPLEADO
   --// GERENTE
   --// HISTORICO_PROD
@@ -138,3 +138,15 @@ VALUES
 (5, 3, true, '5554282422'),
 (7, 3, false, '5555578588'),
 (9, 3, true, '5594393976');
+
+---
+--- Insert into COMPRA
+---
+INSERT INTO "COMPRA"
+(id_empleado, id_produto, tipo_pago, cantidad_productos, factura, fecha, precio_unitario, hora)
+VALUES
+(1, 1, 'E', 4, true, '2022-05-04', 54.10, '04:15 PM'),
+(3, 2, 'T', 5,  false, '2023-09-05', 64.20, '05:25 PM'),
+(5, 3, 'E', 6, true, '2024-07-07', 74.30, '06:35 PM'),
+(7, 4, 'T', 7,  false, '2025-04-01', 84.40, '07:45 PM'),
+(9, 5, 'E', 8, true, '2026-01-03', 94.50, '08:55 PM');
