@@ -49,3 +49,15 @@ VALUES
 ('STATUS 3'),
 ('STATUS 4'),
 ('STATUS 5');
+
+---
+--- Insert into CATALOGO
+---
+INSERT INTO "CATALOGO"
+(nombre_seccion)
+VALUES
+('SECCION 1'),
+('SECCION 2'),
+('SECCION 3'),
+('SECCION 4'),
+('SECCION 5');
