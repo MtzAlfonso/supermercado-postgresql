@@ -5,7 +5,7 @@
   --// EMPLEADO
   --// GERENTE
   --// HISTORICO_PROD
-  -- MEMBRESIA
+  --// MEMBRESIA
   --// PRODUCTO
   --// PROVEEDOR
   --// STATUS
@@ -150,3 +150,15 @@ VALUES
 (5, 3, 'E', 6, true, '2024-07-07', 74.30, '06:35 PM'),
 (7, 4, 'T', 7,  false, '2025-04-01', 84.40, '07:45 PM'),
 (9, 5, 'E', 8, true, '2026-01-03', 94.50, '08:55 PM');
+
+---
+--- Insert into MEMBRESIA
+---
+INSERT INTO "MEMBRESIA"
+(id_tarjeta, id_compra, nombre, ap_paterno, ap_materno, correo, direccion, edad, telefono)
+VALUES
+(1, 1, 'Sofia', 'Raya', 'Renedo', 'Sofia@gmail.com', 'Travesía Lorem ipsum, 76B 12ºD', '18','5543388854'),
+(2, 2, 'Ana', 'Lopez', 'Medina', 'ana@gmail.com', 'Carrera Lorem, 102B 16ºC', '19','5588564848'),
+(3, 3, 'David', 'Perez', 'Rivera', 'david@gmail.com', 'Avenida Lorem ipsum dolor, 226A 2ºB', '21','5574572258'),
+(4, 4, 'Jeremy', 'Parker', 'Sucedo', 'jeremy@gmail.com', 'Ronda Lorem, 120A 20ºA', '22','5582295746'),
+(5, 5, 'Ivan', 'Martinez', 'Baeza', 'ivan@gmail.com', 'Ronda Lorem, 40A 11ºC', '23','5555853366');
